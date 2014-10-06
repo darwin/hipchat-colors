@@ -21,10 +21,19 @@ These styles could definitely be improved upon further (knock yourself out!), bu
 
 **NOTE: This only applies to the OSX version**
 
+#### Using script
+
+    git clone git@github.com:bmoeskau/hipchat-colors.git
+    cd hipchat-colors
+    ./install.sh
+    # now restart HipChat.app to reflect new css settings
+
+#### Manual
+
 1. Quit HipChat (it will not refresh styles while it's open)
 2. Locate the HipChat app file in `/Applications`
 2. Right-click the app icon in Finder and select "Show Package Contents"
-3. Navigate to `/Applications/Hipchat/Contents/Resources/` where you'll find mostly image files, plus a few css files
+3. Navigate to `/Applications/Hipchat.app/Contents/Resources/` where you'll find mostly image files, plus a few css files
 4. If you want to play it safe (recommended) back up or rename `chat.css` and `chat-osx.css`
 5. Copy `chat.css` and `chat-osx.css` from this repo into that folder and restart HipChat
 6. Get back to enjoying your chats
