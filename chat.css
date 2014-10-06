@@ -40,25 +40,7 @@ table {
 /* Setup cases where borders should show between messages */
 .chatBlock {
     border-collapse: collapse;
-}
-.chatBlock.them+.chatBlock.them, .scrollAnchor+.chatBlock.them, .preview+.chatBlock.them {
-    border-top: 1px solid #EFEFEF;
-}
-.chatBlock.them+.systemMessage.them {
-	border-top: none;
-}
-.chatBlock.me+.chatBlock.me, .preview+.chatBlock.me {
-    border-top: 1px solid #ffffff;
-}
-.systemMessage.red+.systemMessage.red,
-.systemMessage.green+.systemMessage.green,
-.systemMessage.purple+.systemMessage.purple,
-.systemMessage.gray+.systemMessage.gray {
-    border-top: 1px solid #FFFFFF;
-}
-
-.systemMessage.yellow+.systemMessage.yellow {
-	border-top: 1px solid #EAEAEA;
+    border-top: 1px solid #fff;
 }
 .chatBlock .messageWrapper {
     margin: 1px 10px 0 10px;
@@ -73,7 +55,7 @@ table {
 }
 
 .chatBlock td {
-    padding: 6px 0;
+    padding: 2px 0;
 }
 
 .fileBlock .icon {
